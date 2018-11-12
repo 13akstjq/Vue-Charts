@@ -1,6 +1,8 @@
 <script>
-  import {Bar} from 'vue-chartjs'
-  export default Bar.extend({
+  import { Bar } from 'vue-chartjs'
+
+  export default {
+    extends: Bar,
     data () {
       return {
         datacollection: {
@@ -43,5 +45,5 @@
     mounted () {
       this.renderChart(this.datacollection, this.options)
     }
-  })
+  }
 </script>

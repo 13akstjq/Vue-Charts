@@ -1,9 +1,12 @@
 <script>
   import {Bubble} from 'vue-chartjs'
-  export default Bubble.extend({
+
+  export default {
+    extends: Bubble,
     data () {
       return {
         datacollection: {
+          //Data to be represented on x-axis
           labels: ['Data'],
           datasets: [
             {
@@ -12,6 +15,7 @@
               pointBackgroundColor: 'white',
               borderWidth: 1,
               pointBorderColor: '#249EBF',
+              //Data to be represented on y-axis
               data: [
                 {
                   x: 100,
@@ -74,5 +78,5 @@
     mounted () {
       this.renderChart(this.datacollection, this.options)
     }
-  })
+  }
 </script>
