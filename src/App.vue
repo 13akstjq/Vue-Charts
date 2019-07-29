@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav">
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/chartjs">vue-chartjs</router-link></li>
         <li><router-link to="/charts">vue-charts</router-link></li>
         <li><router-link to="/chartkick">vue-chartkick</router-link></li>
       </ul>
-    </div>
+    </div>-->
     <router-view />
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
