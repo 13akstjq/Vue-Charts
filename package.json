@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "apexcharts": "^3.8.2",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "chartkick": "^3.0.1",
     "hchs-vue-charts": "^1.2.8",
     "reqeust": "^2.81.1",
